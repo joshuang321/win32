@@ -14,4 +14,4 @@ A simple program to piece together bitmaps into a .ico file. Does not work with 
 A simple program to list the information of the window for people still willing to write GUIs using unmanaged code.
 
 ## client
-A simple concept to create a server-client relationship between two different processes running on two different languages. A multi-linguistical layer form between C# and Python, tied together with C/C++ Python Extension and dllexport subroutines and functions using Win32.
+A simple concept to create a server-client relationship between two different processes running on two different languages. A multi-linguistical layer form between C# and C/C++, tied together with C/C++ dllexport subroutines and functions using Win32.
