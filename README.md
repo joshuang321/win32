@@ -14,4 +14,7 @@ A simple program to piece together bitmaps into a .ico file. Does not work with 
 A simple program to list the information of the window for people still willing to write GUIs using unmanaged code.
 
 ## client
-A simple concept to create a server-client relationship between two different processes running on two different languages. A multi-linguistical layer form between C# and C/C++, tied together with C/C++ dllexport subroutines and functions using Win32.
+A simple concept to create a server-client relationship between two different processes running on two different languages. A layer between C# and C/C++ created using Explicit PInvoke and Marshalling arguements with C/C++ dllexport subroutines and functions using Win32. 
+
+Marshalling Arguements: https://docs.microsoft.com/en-us/cpp/dotnet/calling-native-functions-from-managed-code?view=msvc-170 
+Explicit PInvoke: https://docs.microsoft.com/en-us/cpp/dotnet/using-explicit-pinvoke-in-cpp-dllimport-attribute?view=msvc-170
