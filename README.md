@@ -25,3 +25,12 @@ A simple program to get monitorinfo to get the width and height of the monitor t
 
 ## unicode_to_utf16
 A simple program to translate unicode block to UTF-16 encoding. Good for manual encoding of UTF-16 for a few characters in a program, not good for large paragraphs of characters. Hope to write a program that covers that area of weakness with addition to other functionalities.
+
+## improved-graph
+A improved, intepreted version of my first programming assignment.
+
+## tool
+A simple program that aids me in writing win32 programs.
+
+## python-proto
+A python extension that aids me in developing UIs.
