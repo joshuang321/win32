@@ -6,3 +6,5 @@
 #define IDB_ALIGNLEFT		0x104
 #define IDB_ALIGNRIGHT		0x105
 #define IDB_WINDOW			0x106
+
+#define IDI_APP				0x107

@@ -74,11 +74,11 @@ int WINAPI wWinMain(HINSTANCE hInstance,
 	wcex.cbSize = sizeof(WNDCLASSEXW);
 		wcex.lpfnWndProc = MainWindowProc;
 	wcex.hInstance = hInstance;
-	wcex.hIcon = LoadIconW(NULL, (LPCWSTR)IDI_APPLICATION);
+	wcex.hIcon = LoadIconW(hInstance, (LPCWSTR)MAKEINTRESOURCEW(IDI_APP));
 	wcex.hCursor = LoadCursorW(NULL, (LPCWSTR)IDC_ARROW);
 	wcex.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH);
 	wcex.lpszClassName = pszMainWindowName;
-	wcex.hIconSm = LoadIconW(NULL, (LPCWSTR)IDI_APPLICATION);
+	wcex.hIconSm = LoadIconW(hInstance, (LPCWSTR)MAKEINTRESOURCEW(IDI_APP));
 
 	pszClassName = RegisterClassExW(&wcex);
 

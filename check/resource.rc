@@ -19,3 +19,5 @@ CAPTION "Add Task"
 IDB_ALIGNLEFT	BITMAP 	"alignleft.bmp"
 IDB_ALIGNRIGHT	BITMAP	"alignright.bmp"
 IDB_WINDOW		BITMAP	"window.bmp"
+
+IDI_APP		ICON	"icons\icon.ico"
