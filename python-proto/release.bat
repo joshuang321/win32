@@ -1,0 +1,1 @@
+cl /LD /Fe"win32pythonproto.pyd" win32pythonproto.cpp /I"C:\Users\joshua\AppData\Local\Programs\Python\Python310\include" /std:c++20 /link /LIBPATH:"C:\Users\joshua\AppData\Local\Programs\Python\Python310\libs" python310.lib user32.lib gdi32.lib
