@@ -357,11 +357,9 @@ LRESULT FontWindowProc(HWND hWnd,
 					if (ChooseFontW(&chooseFontW)) {
 
 						std::wstring wstr;
-
-						if (lgFontw.lfHeight)
-							wstr += std::wstring(L"LOGFONTW lgFontw = { 0 };\r\n");
+						wstr += std::wstring(L"LOGFONTW lgFontw = { 0 };\r\n");
 						
-						if (lgFontw.lfWidth)
+						if (lgFontw.lfHeight)
 							wstr += std::wstring(L"lgFontw.lfHeight = ") + std::to_wstring(
 								lgFontw.lfHeight) +
 								codeNewLine;
