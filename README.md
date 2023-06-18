@@ -34,3 +34,6 @@ A simple program that aids me in writing win32 programs.
 
 ## python-proto
 A python extension that aids me in developing UIs.
+
+## alloc
+A simple program to demostrate memory allocation patterns vs performance. It is simple to allocate/free a big chunk of memory upfront rather then calling HeapAlloc/malloc/HeapFree/free to allocate/free smaller chunks of memory.
