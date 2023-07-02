@@ -14,7 +14,6 @@ static DWORD dwOldConsoleMode{};
 
 static void _cdecl win32_atexit(void);
 static void Handle_Win32(BOOL bSuccess);
-static BOOL CALLBACK EnumWindowProc(HWND hWnd, LPARAM lParam);
 static DWORD WINAPI DestroyWndThreadProc(_In_ LPVOID lParam);
 
 int main(int argc, char* argv[])
@@ -28,8 +27,8 @@ int main(int argc, char* argv[])
         std::cout << "Usage: killwnd [options] [modifiers] [arguements]" << std::endl << std::endl
             << "Options:" << std::endl
             << "-h" << "\t\t\t" << "Shows the list of options, modifiers and required arguements." << std::endl
-            << "-c [windowclassName]" << "\t\t\t" << "Specifies the class name of the windows. " << std::endl
-            << "-w [windowName]" << "\t\t\t" << "Specifies the window name of the window." << std::endl << std::endl
+            << "-c [windowclassName]" << "\t" << "Specifies the class name of the windows. " << std::endl
+            << "-w [windowName]" << "\t\t" << "Specifies the window name of the window." << std::endl << std::endl
             << "Modifiers" << std::endl
             << "-m" "\t\t\t" << "Specifies the window is message only.";
     }
