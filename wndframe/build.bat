@@ -1,0 +1,1 @@
+cl /Fe:"wndframe.exe" main.cpp /std:c++20 /link dwmapi.lib user32.lib gdi32.lib
