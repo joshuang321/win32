@@ -1,0 +1,1 @@
+cl /DCRITSEC main.c /link user32.lib

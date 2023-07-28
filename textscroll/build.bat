@@ -1,0 +1,1 @@
+cl /Fe:textscroll textscroll_v1.c /link user32.lib gdi32.lib & del *.obj & textscroll
