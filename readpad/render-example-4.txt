@@ -1,0 +1,14 @@
+<feed>
+<doc>
+<title>Wikipedia: Anarchism</title>
+<url>https://en.wikipedia.org/wiki/Anarchism</url>
+<abstract>Anarchism is a political philosophy and movement that is skeptical of all justifications for authority and seeks to abolish the institutions it claims maintain unnecessary coercion and hierarchy, typically including governments, nation states, law and law enforcement, and capitalism. Anarchism advocates for the replacement of the state with stateless societies or other forms of free associations.</abstract>
+<links>
+<sublink linktype="nav"><anchor>Etymology, terminology, and definition</anchor><link>https://en.wikipedia.org/wiki/Anarchism#Etymology,_terminology,_and_definition</link></sublink>
+<sublink linktype="nav"><anchor>History</anchor><link>https://en.wikipedia.org/wiki/Anarchism#History</link></sublink>
+<sublink linktype="nav"><anchor>Pre-modern era</anchor><link>https://en.wikipedia.org/wiki/Anarchism#Pre-modern_era</link></sublink>
+<sublink linktype="nav"><anchor>Modern era</anchor><link>https://en.wikipedia.org/wiki/Anarchism#Modern_era</link></sublink>
+<sublink linktype="nav"><anchor>Post-WWII</anchor><link>https://en.wikipedia.org/wiki/Anarchism#Post-WWII</link></sublink>
+<sublink linktype="nav"><anchor>Branches</anchor><link>https://en.wikipedia.org/wiki/Anarchism#Branches</link></sublink>
+<sublink linktype="nav"><anchor>Classical anarchism</anchor><link>https://en.wikipedia.org/wiki/Anarchism#Classical_anarchism</link></sublink>
+<sublink linktype="nav"><anchor>Contemporary anarchism</anchor><link>https://en.wikipedia.org/wiki/Anarchism#Contemporary_anarchism</link></sublink>

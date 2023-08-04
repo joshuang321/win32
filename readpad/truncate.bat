@@ -1,0 +1,1 @@
+truncate5mb C:\Users\joshu\Desktop\tfiles\largefile.txt %1dump.txt %1
